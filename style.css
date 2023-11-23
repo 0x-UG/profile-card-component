@@ -3,6 +3,7 @@
 body {
         background-color: hsl(185, 75%, 39%);
         max-width: 1440px;
+        max-height: 832px;
         display: flex;
         flex-direction: column;
         align-items: center;

@@ -53,16 +53,21 @@ body {
 #profile-pic {
         height: 150px;
         width: 100%;
-        margin-top: -50px;
+        margin-top: -140px;
         border-radius: 50%;
 }
 
 #stats {
         display: flex;
         gap: 30px;
-        border-top: 1px solid black;
 }
 
 p {
         text-align: center;
+}
+
+.line {
+        border: 1px solid black;
+        width: 399px;
+        margin-bottom: -70px;
 }

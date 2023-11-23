@@ -18,14 +18,14 @@ body {
 }
 
 .top-left {
-        top: -624px;
+        top: -632px;
         left: -190px;
         background: url('images/bg-pattern-top.svg') center center no-repeat;
         transform: rotate(36deg);
 }
 
 .bottom-right {
-        bottom: -664px;
+        bottom: -632px;
         right: -190px;
         background: url('images/bg-pattern-top.svg') center center no-repeat;
         transform: rotate(221deg);
@@ -37,11 +37,11 @@ body {
         align-items: center;
         justify-content: space-between;
         position: relative;
-        max-width: 450px;
+        max-width: 400px;
         border-style: none;
         border-radius: 12px;
         background-color: white;
-        height: 450px;
+        height: 400px;
 }
 
 #cover-bg {
@@ -49,8 +49,8 @@ body {
         border-style: none;
         border-radius: 12px 12px 0 0;
         width: 400px;
-        height: 120px;
-        background: url('/images/bg-pattern-card.svg');
+        height: 130px;
+        background: linear-gradient(to right, hsl(185, 75%, 39%), hsl(229, 23%, 23%));
 }
 
 #profile-pic {
@@ -92,8 +92,8 @@ p {
 
 .line {
         border-top: 1px solid hsl(0, 0%, 59%);
-        width: 399px;
-        margin-bottom: -70px;
+        width: 350px;
+        margin-bottom: -50px;
 }
 
 .attribution {

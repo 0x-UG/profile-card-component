@@ -1,6 +1,10 @@
 body {
         background-color: hsl(185, 75%, 39%);
         max-width: 1440px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 200px;
 }
 
 .circle {
@@ -24,9 +28,41 @@ body {
         transform: rotate(221deg);
 }
 
-#content {
+#content-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
         position: relative;
-        z-index: 1;
-        padding: 20px;
-        color: white;
+        max-width: 450px;
+        border-style: none;
+        border-radius: 12px;
+        background-color: white;
+        height: 450px;
+}
+
+#cover-bg {
+        display: flex;
+        border-style: none;
+        border-radius: 12px 12px 0 0;
+        width: 400px;
+        height: 120px;
+        background: url('/images/bg-pattern-card.svg');
+}
+
+#profile-pic {
+        height: 150px;
+        width: 100%;
+        margin-top: -50px;
+        border-radius: 50%;
+}
+
+#stats {
+        display: flex;
+        gap: 30px;
+        border-top: 1px solid black;
+}
+
+p {
+        text-align: center;
 }

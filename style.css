@@ -8,19 +8,28 @@ body, html {
 
 .circle {
         position: absolute;
-        width: 200px;
-        height: 200px;
+        width: 704px;
+        height: 660px;
         border-radius: 50%;
 }
 
 .top-left {
-        top: 0;
-        left: 0;
+        top: -451px;
+        left: -164px;
         background: url('images/bg-pattern-top.svg') center center no-repeat;
+        transform: rotate(90deg);
 }
 
 .bottom-right {
-        bottom: 0;
-        right: 0;
+        bottom: -120px;
+        right: 0px;
         background: url('images/bg-pattern-bottom.svg') center center no-repeat;
+        transform: rotate(330deg);
+}
+
+#content {
+        position: relative;
+        z-index: 1;
+        padding: 20px;
+        color: white;
 }

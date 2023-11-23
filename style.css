@@ -18,10 +18,10 @@ body {
 }
 
 .top-left {
-        top: -624px;
+        top: -232px;
         left: -190px;
         background: url('images/bg-pattern-top.svg') center center no-repeat;
-        transform: rotate(36deg);
+        transform: rotate(324deg);
 }
 
 .bottom-right {
